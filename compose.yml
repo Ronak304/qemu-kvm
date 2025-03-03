@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://archive.org/download/windows-8.1-extreme-lite-xerife-tech-black-nlp/Windows%208.1%20Extreme%20Lite%20-%20Xerife%20Tech%20%26%20BlackNLP.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
